@@ -1,5 +1,7 @@
 ﻿import ProductSearch from "./component/ProductSearch"
 import RegistrationForm from "./component/RegistrationForm"
+import Fetchdata from "./component/Fetchdata"
+import Toggle from "./component/Toggle"
 
 const App = () => {
   return (
@@ -12,6 +14,14 @@ const App = () => {
         <div>
         <h1>Task 2</h1>
         <ProductSearch/>
+        </div>
+        <div>
+         <h1>Task 3</h1>
+          <Fetchdata/>
+        </div>
+        <div>
+          <h1>Task 4</h1>
+          <Toggle/>
         </div>
       
       </div>
